@@ -1,6 +1,6 @@
 ## About
-- PHP version 7.1.14
-- Laravel version 10
+- PHP version 7.2
+- Mysql version 5.7
 
 ### Requirements
 - Docker
@@ -8,7 +8,7 @@
 
 ### Clone & Run server
 ```
-git clone 
+git clone git@github.com:Thanhhm-dev/basic-docker-laravel.git
 docker-compose up -d
 ```
 ### Create project
@@ -27,3 +27,4 @@ Database: db_name
 username: root
 password: password_root
 ```
+<p align="center"><img src="https://github.com/Thanhhm-dev/basic-docker-laravel/blob/main/image.png"></p>
