@@ -1,0 +1,78 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Shop extends Model
+{
+    protected $table = 'shops';
+
+    protected $fillable = [
+        'name',
+        'furigana',
+        'company_name',
+        'company_name_furigana',
+        'company_contact_name',
+        'email',
+        'phone',
+        'fax',
+        'url',
+        'budget_under_limit',
+        'billing_method',
+        'public',
+        'member_of_outino',
+        'budget_under_limit',
+        'sending_customer_upper_limit_in_month',
+        'sending_customer_upper_limit_in_week',
+        'sending_customer_upper_limit_in_day',
+        'sending_customer_cond',
+        'incompatible_house_kind',
+        'repair',
+        'renovation',
+        'premium',
+        'last_update_email',
+        'customer_chart',
+        'action_num',
+        'guidable',
+        'parent_flag',
+        'group_id',
+        'contractor_site_admin_id',
+        'shop_via_id',
+        'test_account',
+        'crm',
+        'registration_day',
+        'registration_mail_send',
+        'sending_customer_maximum_amount_in_month',
+        'exterior',
+        'hausapo',
+        'introduce_guide_flag',
+        'newsletter_flag',
+        'demolish_flag',
+        'ec',
+        'stop_sending_ec',
+        'send_unexecuted_alert',
+        'duplication_ng_flag',
+        'price_increase_agreed',
+        'price_increase_agreed_at',
+        'price_increase_invisible',
+        'price_increase_exterior_agreed',
+        'price_increase_exterior_agreed_at',
+        'price_increase_exterior_invisible',
+        'google_my_business_option',
+        'google_my_business_url',
+        'pronuri',
+        'complete_referral_fee',
+        'company_contact_phone',
+        'send_sms_company_contact_phone',
+        'field_survey_plan',
+        'project_purchase_flag',
+        'standard_mall_flag',
+        'water_area_flag',
+        'nomination',
+        'new_construction',
+        'new_construction_document',
+        'sending_customer_memo',
+    ];
+}
