@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'shops', 'namespace' => 'Shops'], function () {
+    Route::get('{shopId}/new_construction_shop_detail/edit', 'NewConstructionController@show')->name('shops.new_construction');
+    Route::put('{shopId}/new_construction_shop_detail/edit', 'NewConstructionController@update')->name('shops.new_construction.update');
+});
